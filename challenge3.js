@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $("#ch3form").submit(function(e) {
         var grade = $('input[name="standing"]:checked').length;
-        var year = $('input[name="gradeDate"]:checked').length;
+        var year = $('input[name="gradDate"]:checked').length;
         console.log(grade);
         console.log(year);
         if (grade == 0 && year == 0) {
